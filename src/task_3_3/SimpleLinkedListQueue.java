@@ -1,6 +1,6 @@
 package task_3_3;
 
-public class SimpleLinkedListQueue<T> extends SimpleLinkedList<T> implements SimpleQueue<T> {
+public class SimpleLinkedListQueue<T> extends SimpleLinkedList<T> implements SimpleQueue<T>{
     @Override
     public void add(T value) {
         this.addLast(value);
