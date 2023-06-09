@@ -7,7 +7,7 @@ public class Main {
 поддерево корня дерева (левый потомок у корня дерева при этом надо убрать).
 */
     public static void main(String[] args) {
-        SimpleBinaryTree<Integer  > tree = new SimpleBinaryTree<>(Integer::parseInt);
+        SimpleBinaryTree<Integer> tree = new SimpleBinaryTree<>(Integer::parseInt);
 
         try {
             tree.fromBracketNotation("8 (6 (4 (5), 6), 5 (, 5 (2, 8)))");

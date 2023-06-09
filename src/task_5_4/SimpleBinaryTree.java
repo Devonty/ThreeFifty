@@ -168,7 +168,7 @@ public class SimpleBinaryTree<T> implements BinaryTree<T> {
             }
         }
 
-        Stack<NodeAndLevel> stack = new Stack<>();
+            Stack<NodeAndLevel> stack = new Stack<>();
 
         if (root.right != null){
             stack.push(new NodeAndLevel(root, 0));

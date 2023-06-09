@@ -28,7 +28,7 @@ public class Main {
         // Строим крайние позиции для каждой группы чисел
         while (current != null) {
             int value = current.value;
-            if (value < 0) { // POSITIVE
+            if (value < 0) { // NEGATIVE
                 if (firstNeg == null) {
                     firstNeg = current;
                     lastNeg = current;

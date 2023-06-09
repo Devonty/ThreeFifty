@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         SimpleLinkedList<Integer> list = new SimpleLinkedList<>();
         Random rd = new Random();
+
         int len = 30;
         for (int i = 0; i < len; i++) {
             list.addLast(rd.nextInt(0, 100));

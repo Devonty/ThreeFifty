@@ -153,11 +153,12 @@ public class SimpleBinaryTree<T> implements BinaryTree<T> {
     }
 
     public void leftToRight(){
-        if(this.root == null) return;
-        SimpleTreeNode right = this.root;
+        if(root == null) return;
+
+        SimpleTreeNode right = root;
         while (right.right != null) right = right.right;
 
-        right.right = this.root.left;
-        this.root.left = null;
+        right.right = root.left;
+        root.left = null;
     }
 }
